@@ -1,3 +1,5 @@
+//check if a list of strings are palidromes to eachother, and return the list of pairs.
+
 #include <iostream>
 #include <string>
 #include <vector>
