@@ -1,3 +1,4 @@
+//return a list of indeces where the string inside of a word appears
 #include <vector>
 #include <string>
 #include <iostream>
@@ -138,22 +139,5 @@ int main(){
     }
     return 0;
 }
-
-
-//e = 5
-//v = 22
-//x = 24
-//ev = 27
-//r = 18
-//i = 9
-
-//evxeveri
-//<ev, vx, xe, ev, ve, er, ri>
-//<27, 46, 29, 27, 27, 23, 27>
-
-//load map:
-//e:1
-//v:1
-//<ev, ve, ri>
 
 
