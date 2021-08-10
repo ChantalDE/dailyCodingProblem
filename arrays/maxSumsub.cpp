@@ -1,3 +1,5 @@
+//find the subArray with the largest product
+
 #include <iostream>
 using namespace std;
 
