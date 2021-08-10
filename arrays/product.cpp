@@ -1,9 +1,12 @@
+//Get the product of the array for each element, not including the element itself
 #include <iostream>
 
 using namespace std;
 int* productD(int input[], int size);
 int* productWD(int input[], int size);
 
+
+//fucntion W/ Division
 int* productD(int input[], int size){
     int product = 1;
     for (int i = 0; i < size; i++){
@@ -16,6 +19,7 @@ int* productD(int input[], int size){
     return output;
 }
 
+//function w/o division
 int* productWD(int input[], int size){
     int* output = new int[size]();
     output[0] = 1;
